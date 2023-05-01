@@ -5,6 +5,6 @@ public class Main {
         System.out.println("Enter a Number");
         int a = scanner.nextInt();
         System.out.println("value = " + a);
-        // version control
+        // version control test 2
     }
 }
