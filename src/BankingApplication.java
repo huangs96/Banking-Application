@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BankingApplication {
     public static void main(String[] args) {
 
@@ -10,6 +12,10 @@ class BankAccount
     int previousTransaction;
     String customerName;
     String customerId;
+    BankAccount(String cname, String cid) {
+        customerName = cname;
+        customerId = cid;
+    }
 
     void deposit(int amount) {
         if (amount != 0) {
@@ -32,6 +38,28 @@ class BankAccount
             System.out.println("Withdrawn: " + Math.abs(previousTransaction));
         } else {
             System.out.println("No Transactions");
+        }
+    }
+
+    void showMenu() {
+        char option = '\0';
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome" + customerName);
+        System.out.println("Your ID is " + customerId);
+        System.out.println("\n");
+        System.out.println("A. Check Balance");
+        System.out.println("B. Deposit");
+        System.out.println("C. Withdraw");
+        System.out.println("D. Previous Transaction");
+        System.out.println("E. Exit");
+
+        do {
+            System.out.println("=======================");
+            System.out.println("Enter an option");
+            switch(option) {
+
+            }
         }
     }
 }

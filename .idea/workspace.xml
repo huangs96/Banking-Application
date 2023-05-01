@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d05aa52c-b6f2-4140-82b2-4dcc5b06dc88" name="Changes" comment="creating class BankAccount">
+    <list default="true" id="d05aa52c-b6f2-4140-82b2-4dcc5b06dc88" name="Changes" comment="initiated transactions and getTransaction methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankingApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682977280010</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initiated transactions and getTransaction methods">
+      <created>1682977834169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682977834169</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +119,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="working at char values" />
     <MESSAGE value="creating class BankAccount" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating class BankAccount" />
+    <MESSAGE value="initiated transactions and getTransaction methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="initiated transactions and getTransaction methods" />
   </component>
 </project>
