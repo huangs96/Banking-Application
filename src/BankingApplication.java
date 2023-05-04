@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class BankingApplication {
     public static void main(String[] args) {
-
+        BankAccount obj1 = new BankAccount("test", "BA00001");
+        obj1.showMenu();
     }
 }
 
@@ -21,6 +22,7 @@ class BankAccount
         if (amount != 0) {
             balance = balance + amount;
             previousTransaction = amount;
+            System.out.println("123" + balance);
         }
     }
 
@@ -28,6 +30,7 @@ class BankAccount
         if (amount != 0) {
             balance = balance - amount;
             previousTransaction = -amount;
+            System.out.println(balance);
         }
     }
 
@@ -57,6 +60,9 @@ class BankAccount
         do {
             System.out.println("=======================");
             System.out.println("Enter an option");
+            System.out.println("=======================");
+            option = scanner.next().charAt(0);
+            System.out.println("\n");
             switch(option) {
                 case 'A':
                     System.out.println("---------------");

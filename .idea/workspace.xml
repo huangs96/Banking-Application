@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d05aa52c-b6f2-4140-82b2-4dcc5b06dc88" name="Changes" comment="filling in showMenu method">
+    <list default="true" id="d05aa52c-b6f2-4140-82b2-4dcc5b06dc88" name="Changes" comment="banking application roughly complete">
+      <change afterPath="$PROJECT_DIR$/src/BankAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankingApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankingApplication.java" afterDir="false" />
     </list>
@@ -107,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682978846887</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="banking application roughly complete">
+      <created>1683187310161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187310161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +137,7 @@
     <MESSAGE value="creating class BankAccount" />
     <MESSAGE value="initiated transactions and getTransaction methods" />
     <MESSAGE value="filling in showMenu method" />
-    <option name="LAST_COMMIT_MESSAGE" value="filling in showMenu method" />
+    <MESSAGE value="banking application roughly complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="banking application roughly complete" />
   </component>
 </project>
